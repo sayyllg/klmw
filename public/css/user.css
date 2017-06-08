@@ -1,0 +1,11 @@
+.user-container .user-list {
+  background: #fff;
+  padding: 20px; }
+  .user-container .user-list table td {
+    height: 30px; }
+  .user-container .user-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .user-container .user-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .user-container .user-list table tbody tr:hover {
+    background-color: #e9ffd6; }

@@ -1,0 +1,11 @@
+.sale-container .sale-list {
+  background: #fff;
+  padding: 20px; }
+  .sale-container .sale-list table td {
+    height: 30px; }
+  .sale-container .sale-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .sale-container .sale-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .sale-container .sale-list table tbody tr:hover {
+    background-color: #e9ffd6; }

@@ -1,0 +1,11 @@
+.address-container .address-list {
+  background: #fff;
+  padding: 20px; }
+  .address-container .address-list table td {
+    height: 30px; }
+  .address-container .address-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .address-container .address-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .address-container .address-list table tbody tr:hover {
+    background-color: #e9ffd6; }

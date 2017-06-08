@@ -1,0 +1,12 @@
+<?php
+
+
+//数据库配置
+define("DBHOST",'127.0.0.1');
+define("DBUSER",'root');
+define("DBPWD",'');
+define("DBNAME",'ehr');
+define("TABLEPREFIX",'ehr_'); //表前缀
+
+
+

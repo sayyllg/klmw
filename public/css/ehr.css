@@ -1,0 +1,156 @@
+/* public css */
+body{
+    background-color: #f2f2f2;
+    color: #666;
+}
+.text-success {
+    color: #02bd85;
+}
+div{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+/* public css end */
+
+
+/* nav */
+#nav .nav-content {
+	height: 40px;
+}
+
+#nav .nav-content .ehr-topbar{
+	background: #00c8df;
+    color: #fff;
+}
+#nav .nav-content .ehr-topbar .pull-left div {
+    display: inline-block;
+}
+#nav .nav-content .ehr-topbar .pull-left .dropdown{
+	position: static;	
+}
+#nav .nav-content .ehr-topbar .pull-left .dropdown .dropdown-menu {
+    min-width: 180px;
+    padding: 0px;
+    position: absolute;
+    top: 38px;
+    bottom: 0px;
+    border-radius: 0px;
+}
+#nav .nav-content .ehr-topbar .pull-left .dropdown button{
+	width: 40px;
+    height: 40px;
+    background: #00b4c8;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+}
+#nav .nav-content .ehr-topbar .pull-left .dropdown .dropdown-menu > li > a {
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+#nav .nav-content .ehr-topbar .pull-left .dropdown .dropdown-menu > li > a .fa {
+    margin-right: 24px;
+}
+#nav .nav-content .ehr-topbar .pull-left .ehr-title {
+    padding-left: 15px;
+    vertical-align: middle;
+}
+#nav .nav-content .ehr-topbar .pull-left .ehr-title a {
+    color: #fff;
+    text-decoration: none;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb {
+    padding: 3px 0px 3px 15px;
+    margin-bottom: 0;
+    border: none;
+    background: none;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb .dropdown {
+    margin-right: 20px;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb .dropdown .avatar-default{
+    height: 34px;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb .dropdown .dropdown-toggle {
+    margin-right: 4px;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb .dropdown a{
+	text-decoration: none;
+}
+#nav .nav-content .ehr-topbar .pull-right .ehr-user_state .breadcrumb .dropdown a .user {
+    color: #fff;
+    margin-right: 3px;
+}
+#nav .nav-content .ehr-topbar .pull-right .form-group{
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+#nav .nav-content .ehr-topbar .pull-right .form-group .form-control {
+    background: #8ce6f1;
+    height: 30px;
+    width: 240px;
+    border-color: transparent;
+    box-shadow: inset 0 0px 0px transparent;
+    padding-right: 40px;
+}
+
+#nav .nav-content .ehr-topbar .pull-right .form-group .fa-search{
+    margin-top: 7px;
+}
+#nav .nav-content .ehr-topbar .pull-right .form-group ul{
+    margin-bottom: 0px;
+}
+/* nav end */
+
+
+/* header */
+#header .navbar-collapse {
+    background-color: #fff;
+    border-color: #eee;
+}
+#header .navbar-nav {
+    height: 60px;
+    padding: 4px 0px 0px 44px;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+}
+#header .navbar-collapse .ehr-hidden-nav li {
+    margin-right: 50px;
+}
+#header .navbar-collapse .ehr-hidden-nav li.active {
+    background-color: #fff;
+    color: #00c8df;
+    border-bottom: 2px solid #00c8df;
+}
+#header .navbar-collapse .ehr-hidden-nav li a {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 19px;
+    outline: none;
+    color: #333;
+}
+#header .navbar-collapse .ehr-hidden-nav li.active a {
+    background: #fff;
+    color: #00c8df;
+}
+
+/* main */
+#main.row{
+    margin: 15px 0 60px 0;
+}
+
+
+/* footer */
+#footer {
+    font-size: 12px;
+    color: #666;
+}
+#footer .contents{
+    text-align: center;
+}
+#footer .contents p{
+    padding: 0;
+    margin: 0;
+}

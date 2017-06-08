@@ -1,0 +1,167 @@
+.index-container{
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.index-container .left-box{
+	padding: 0 10px 0 5px;
+}
+.index-container .right-box{
+	padding: 0 5px 0 10px;
+ }
+.index-container .personalinfo{
+	background-color: #fff;
+	width: 100%;
+	
+}
+.index-container .personalinfo .archives-btn {
+	/*position: absolute;
+	bottom: 50px;
+	left: 60px;*/
+	margin-top: 10px;
+}
+.index-container .personalinfo .avatar-box{
+	padding: 0;
+}
+.index-container .personalinfo .contents{
+	padding: 10px 20px;
+}
+.index-container .personalinfo .contents ul{
+	padding: 0 0 0 20px;
+	margin: 0px;
+	list-style-type: none;
+}
+.index-container .personalinfo .contents ul li .ehr-label{
+	color: #999;
+	width: 74px;
+	display: inline-block;
+	text-align: right
+}
+
+/*.index-container .personalinfo .contents .avatar{
+	position: absolute;
+	top: 30px;
+	left: 55px;
+}*/
+
+.index-container .personalinfo .contents ul li{
+	line-height:  30px;
+	white-space:nowrap;
+}
+.index-container .attendance{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 20px;
+}
+.index-container .attendance .contents{
+	padding-bottom: 20px;
+}
+.index-container .attendance .contents .attendance-title{
+	margin-top: 20px;
+	color:#333;
+}
+.index-container .attendance .contents .attendance-title .desc{
+	color: #999;
+	font-size: 12px;
+}
+.index-container .attendance .contents ul{
+	padding: 0 0 0 20px;
+	margin: 0px;
+	list-style-type: none;
+}
+.index-container .attendance .contents ul li{
+	line-height: 45px;
+	width: 100%;
+	border-bottom: 1px dotted #efefef;
+}
+
+.index-container .notice{
+	background-color: #fff;
+	width: 100%;
+}
+.index-container .notice ul{
+	padding: 10px 20px;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+}
+.index-container .notice ul li{
+	line-height: 45px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #efefef;
+}
+.index-container .notice ul li .date{
+	font-size: 12px; 
+	color: #ccc;
+	float: right;
+
+}
+.index-container .todo{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 20px;
+}
+.index-container .todo ul{
+	padding: 10px 20px;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+}
+.index-container .todo ul li{
+	line-height: 45px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #efefef;
+}
+.index-container .address{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.index-container .address .addressbook-item {
+    position: relative;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.index-container .address .addressbook-item .user-avatar {
+    margin-top: 16px;
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+}
+.index-container .address .addressbook-item .user-info {
+    width: 80%;
+    position: absolute;
+    left: 60px;
+    right: 0px;
+    border-bottom: 1px dotted #cccccc;
+    height: 100%;
+    padding-top: 15px;
+    top: 0;
+}
+.index-container .address .addressbook-item .user-info .name {
+    color: #333333;
+    font-size: 16px;
+    min-width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.index-container .address .addressbook-item .user-info .telphone {
+    color: #333333;
+    font-size: 14px;
+}
+.index-container .address .addressbook-item .user-info .text-memo {
+    margin-top: 5px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.index-container .title{
+	
+	padding: 10px 0px;
+	font-size: 16px;
+	border-bottom: 1px solid #e7e7e7;
+	color: #333;
+
+}

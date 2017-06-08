@@ -1,0 +1,11 @@
+.system-container .system-list {
+  background: #fff;
+  padding: 20px; }
+  .system-container .system-list table td {
+    height: 30px; }
+  .system-container .system-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .system-container .system-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .system-container .system-list table tbody tr:hover {
+    background-color: #e9ffd6; }

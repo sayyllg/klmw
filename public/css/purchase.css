@@ -1,0 +1,34 @@
+.purchase-container .purchase-list {
+  background: #fff;
+  padding: 20px; }
+  .purchase-container .purchase-list table td {
+    height: 30px; }
+  .purchase-container .purchase-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .purchase-container .purchase-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .purchase-container .purchase-list table tbody tr:hover {
+    background-color: #e9ffd6; }
+
+.purchaseForm .modal-dialog {
+  width: 1000px; }
+.purchaseForm .modal-content {
+  float: left;
+  width: 100%; }
+.purchaseForm .order {
+  margin-bottom: 20px;
+  min-height: 400px; }
+  .purchaseForm .order .order-list {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; }
+    .purchaseForm .order .order-list tr {
+      height: 36px; }
+    .purchaseForm .order .order-list thead tr {
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc; }
+
+.purchaseItemForm .modal-dialog {
+  margin-top: 60px; }
+.purchaseItemForm .modal-content {
+  float: left;
+  width: 100%; }

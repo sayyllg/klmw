@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+.sass-cache
+#build
+.tmp
+.idea/
+src/scripts/juggler/dist/
+src/scripts/spms/planapp.js
+routers/router.js 

@@ -1,0 +1,11 @@
+.return-container .return-list {
+  background: #fff;
+  padding: 20px; }
+  .return-container .return-list table td {
+    height: 30px; }
+  .return-container .return-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .return-container .return-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .return-container .return-list table tbody tr:hover {
+    background-color: #e9ffd6; }

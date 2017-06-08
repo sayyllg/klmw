@@ -1,0 +1,41 @@
+.header .name{
+	text-align: center;
+	line-height: 34px;
+	font-size: 18px;
+}
+
+.login{
+
+	text-align: center;
+	margin-top:15%;
+
+}
+
+.login .form_item{
+
+	height:  50px;
+
+}
+
+.login label{
+
+	width:60px;
+	line-height: 30px;
+	text-align: center;
+
+}
+
+.login .form_item input{
+	
+	height: 34px;
+	border-radius: 3px;
+	
+}
+
+.login .form_item .submit, .login .form_item .reset{
+
+	height:30px;
+	width: 50px;
+	margin-left: 60px;
+
+}

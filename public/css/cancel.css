@@ -1,0 +1,11 @@
+.cancel-container .cancel-list {
+  background: #fff;
+  padding: 20px; }
+  .cancel-container .cancel-list table td {
+    height: 30px; }
+  .cancel-container .cancel-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .cancel-container .cancel-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .cancel-container .cancel-list table tbody tr:hover {
+    background-color: #e9ffd6; }

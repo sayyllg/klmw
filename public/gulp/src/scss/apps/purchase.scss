@@ -1,0 +1,61 @@
+.purchase-container{
+	.purchase-list{
+		background: #fff;
+		padding: 20px;
+		table{
+			td{
+				height: 30px;
+			}
+			thead{
+				td{
+					border-bottom: 1px solid #ccc;
+
+				}
+			}
+			tbody{
+				tr:nth-child(odd){
+					background-color: rgb(246, 246, 246);
+				}
+				tr:hover{
+					background-color: rgb(233, 255, 214);
+				}
+			}
+		}
+	}	
+}
+.purchaseForm{
+	.modal-dialog{
+		width: 1000px;
+	}
+	.modal-content{
+		float:left;
+		width: 100%;
+	}
+	.order{
+		margin-bottom: 20px;
+		min-height: 400px;
+		.order-list{
+			tr{
+				height: 36px;
+			}
+			margin-bottom: 20px;
+			border-bottom: 1px solid #ccc;
+			thead{
+				tr{
+					border-bottom: 1px solid #ccc;
+					border-top: 1px solid #ccc;
+				}
+			}
+		}
+	}
+}
+
+.purchaseItemForm{
+	.modal-dialog{
+		margin-top: 60px;
+	}
+	.modal-content{
+		float:left;
+		width: 100%;
+	}
+}

@@ -1,0 +1,65 @@
+.contract-files-container .btn-file {
+  margin-right: 20px; }
+
+.implementation-container .progress {
+  margin-bottom: 0; }
+  .implementation-container .progress .progress-bar {
+    cursor: pointer; }
+
+.contract-actions-container .form-container .form-group {
+  margin-bottom: 0; }
+
+.implementation-files {
+  position: relative;
+  max-width: 700px;
+  max-height: 134px;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  .implementation-files.drop-zone-drag-over .drop-drag-mask {
+    opacity: 1; }
+  .implementation-files.drop-zone-drag-over .files-container .implementation-file, .implementation-files.drop-zone-drag-over .files-container .no-files {
+    opacity: 0; }
+  .implementation-files .drop-drag-mask {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: dashed #cccccc;
+    background: #f5f5f5; }
+    .implementation-files .drop-drag-mask .drop-drag-messagebox {
+      height: 100%;
+      width: 100%;
+      display: table; }
+    .implementation-files .drop-drag-mask .drop-drag-message {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 20px; }
+  .implementation-files .files-container .no-files {
+    line-height: 36px;
+    height: 36px;
+    text-align: center; }
+
+.implementation-form .files-container .file-actions-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer; }
+  .implementation-form .files-container .file-actions-group .file-action {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    font-size: 20px;
+    text-align: center; }
+    .implementation-form .files-container .file-actions-group .file-action i.fa {
+      line-height: 30px;
+      height: 30px;
+      opacity: 0.7;
+      transition: 0.3s; }
+    .implementation-form .files-container .file-actions-group .file-action:hover {
+      background: #f4f4f4; }
+      .implementation-form .files-container .file-actions-group .file-action:hover i.fa {
+        opacity: 1; }

@@ -1,0 +1,11 @@
+.stock-container .stock-list {
+  background: #fff;
+  padding: 20px; }
+  .stock-container .stock-list table td {
+    height: 30px; }
+  .stock-container .stock-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .stock-container .stock-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .stock-container .stock-list table tbody tr:hover {
+    background-color: #e9ffd6; }

@@ -1,0 +1,11 @@
+.allocation-container .allocation-list {
+  background: #fff;
+  padding: 20px; }
+  .allocation-container .allocation-list table td {
+    height: 30px; }
+  .allocation-container .allocation-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .allocation-container .allocation-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .allocation-container .allocation-list table tbody tr:hover {
+    background-color: #e9ffd6; }

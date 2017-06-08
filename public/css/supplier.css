@@ -1,0 +1,11 @@
+.supplier-container .supplier-list {
+  background: #fff;
+  padding: 20px; }
+  .supplier-container .supplier-list table td {
+    height: 30px; }
+  .supplier-container .supplier-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .supplier-container .supplier-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .supplier-container .supplier-list table tbody tr:hover {
+    background-color: #e9ffd6; }

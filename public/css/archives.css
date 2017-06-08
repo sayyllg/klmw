@@ -1,0 +1,36 @@
+.archives-container .archives-list{
+	background: #fff;
+	padding-bottom: 20px;
+	color: #333;
+}
+.archives-container .archives-list .warning{
+	color: #ecaa5f;
+}
+.archives-container .archives-list .success{
+	color: #02bd85;
+}
+.archives-container .archives-list .avatar-default{
+	height: 30px;
+	width: 30px;
+}
+.archives-container .archives-list table{
+	margin-top: 4px;
+	font-size: 14px;
+}
+.archives-container .archives-list table tbody tr:nth-child(odd){
+	background-color: rgb(246, 246, 246);
+}
+.archives-container .archives-list table tbody tr:hover{
+	background-color: rgb(233, 255, 214);
+}
+.archives-container .archives-list table thead{
+	font-size: 15px;
+	color: #333;
+}
+.archives-container .archives-list table thead td{
+	border-bottom: 1px solid #ccc;
+}
+.archives-container .archives-list table td{
+	line-height: 36px;
+	text-align: center;
+}

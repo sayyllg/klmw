@@ -1,0 +1,93 @@
+    <div id="nav"></div>
+    <div id="header"></div>
+    <div id="main" class="main row"></div>
+
+    <div id="footer" class="col-xs-12">
+        <div class="contents">
+            <p>Ibird智能手表</p>
+            <p>created by Immortal bird Team!</p>
+        </div>
+    </div>
+    
+    <script src="gulp/bower_components/jquery/dist/jquery.js"></script>
+    <script src="gulp/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="gulp/bower_components/underscore/underscore.js"></script>
+    <script src="gulp/bower_components/backbone/backbone.js"></script>
+    <script src="gulp/bower_components/backbone.babysitter/lib/backbone.babysitter.js"></script>
+    <script src="gulp/bower_components/backbone.wreqr/lib/backbone.wreqr.js"></script>
+    <script src="gulp/bower_components/marionette/lib/core/backbone.marionette.js"></script>
+    <script src="gulp/bower_components/backbone-forms/distribution/backbone-forms.js"></script>
+    <script src="gulp/bower_components/backbone-forms/distribution/templates/bootstrap3.js"></script>
+    <script src="gulp/bower_components/moment/moment.js"></script>
+    <script src="gulp/bower_components/moment/locale/zh-cn.js"></script>
+    <script src="gulp/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="gulp/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+    <script src="gulp/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+    <script src="gulp/bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
+    <script src="gulp/bower_components/bootstrap3-typeahead/bootstrap3-typeahead.min.js"></script>
+    <script src="gulp/bower_components/remarkable-bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="gulp/bower_components/chart.js/dist/Chart.js"></script>
+<?php
+    if(!DEVELOP_ENV){
+?>
+    <script src="js/ehr.js"></script>           
+<?php
+    }else{
+?>
+    <!-- 主程序入口 -->
+    <script src="gulp/src/scripts/main/index.js"></script>
+    <script src="gulp/src/scripts/main/dicts.js"></script>
+    <script src="gulp/src/scripts/main/funcs.js"></script>
+    <script src="gulp/src/scripts/main/router.js"></script>
+    <script src="gulp/src/scripts/main/templates.js"></script>
+    <script src="gulp/src/scripts/main/entities.js"></script>
+    <script src="gulp/src/scripts/main/views.js"></script>
+    <script src="gulp/src/scripts/main/widgets.js"></script>
+    <script src="gulp/src/scripts/main/fix.js"></script>
+    <script src="gulp/src/scripts/main/comonents.js"></script>
+
+    <!-- chart组件 --> 
+    <script src="gulp/src/scripts/chart/main/index.js"></script>
+    <script src="gulp/src/scripts/chart/main/templates.js"></script>
+    <script src="gulp/src/scripts/chart/main/entities.js"></script>
+    <script src="gulp/src/scripts/chart/main/views.js"></script>
+
+    <!-- 首页 -->
+    <script src="gulp/src/scripts/index/main/index.js"></script>
+    <script src="gulp/src/scripts/index/main/router.js"></script>
+    <script src="gulp/src/scripts/index/main/templates.js"></script>
+    <script src="gulp/src/scripts/index/main/entities.js"></script>
+    <script src="gulp/src/scripts/index/main/views.js"></script>
+
+    
+    
+    <!-- header -->
+    <script src="gulp/src/scripts/header/main/dicts.js"></script>
+    <script src="gulp/src/scripts/header/main/router.js"></script>
+    <script src="gulp/src/scripts/header/main/templates.js"></script>
+    <script src="gulp/src/scripts/header/main/entities.js"></script>
+    <script src="gulp/src/scripts/header/main/views.js"></script>
+    <script src="gulp/src/scripts/header/main/index.js"></script>
+    <!-- footer -->
+    <script src="gulp/src/scripts/footer/main/index.js"></script>
+    <script src="gulp/src/scripts/footer/main/dicts.js"></script>
+    <script src="gulp/src/scripts/footer/main/router.js"></script>
+    <script src="gulp/src/scripts/footer/main/templates.js"></script>
+    <script src="gulp/src/scripts/footer/main/entities.js"></script>
+    <script src="gulp/src/scripts/footer/main/views.js"></script>
+
+
+    <script src="gulp/src/scripts/main/start.js"></script>
+    <script>
+        $('.organization').on('click', '.fa-plus-square-o', function(){
+            $(this).parents('li:first').find('ul:first').removeClass('hide');
+            $(this).removeClass('fa-plus-square-o').addClass('fa-minus-square-o');
+        });
+         $('.organization').on('click', '.fa-minus-square-o',function(){
+            $(this).parents('li:first').find('ul:first').addClass('hide');
+            $(this).removeClass('fa-minus-square-o').addClass('fa-plus-square-o');
+        });
+    </script>
+<?php
+    }
+?>

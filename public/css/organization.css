@@ -1,0 +1,75 @@
+#main .organization .contents, #main .role .contents {
+	background-color: #fff;
+	min-height: 550px;
+}
+#main .demo{
+	color: #ccc;
+}
+#main .organization, #main .role {
+	padding: 10px 15px;
+}
+#main .organization {
+	margin-left: 5px;
+}
+#main .role {
+	margin-left: -10px;
+}
+#main .organization .creagte-company, #main .role .create-role{
+	margin: 10px 20px 10px 10px;
+}
+#main .organization ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+#main .organization ul li{
+ 	line-height: 30px;
+ 	margin-left: 40px;
+ 	background: url(/img/treeLine-Y-L.png) -2px -9px no-repeat,
+ 					url(/img/treeLine-Y.png) -2px -9px repeat-y;
+}
+
+#main .organization ul li.last{
+	background: url(/img/treeLine-X-L.png) -2px -3px no-repeat;
+}
+
+#main .organization .fa{
+	width: 12px;
+	height: 12px;
+	margin-right: 8px;
+}
+#main .organization .fa-minus-square-o, #main .organization .fa-plus-square-o {
+	background: #fff;
+}
+#main .organization .organization-list{
+	
+}
+#main .organization ul li .actions{
+	float: right;
+	margin-right: 30px;
+}
+#main .organization ul li .fa-pencil-square-o, #main .organization ul li .fa-trash, #main .organization ul li .fa-plus{
+	font-size: 16px;
+}
+
+#main .role table{
+	width: 100%;
+}
+
+#main .role table tr td{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+}
+
+#main .role table tr td.select-all, #main .role table tr td.num{
+	width: 50px;
+}
+#main .role table tr td.name{
+	width: 100px;
+}
+#main .role table tr td.actions{
+	width: 80px;
+}

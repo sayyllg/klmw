@@ -1,0 +1,109 @@
+@import "../ehr-variables";
+@import "../_theme";
+/*-----------模态框--------------*/
+
+.bootstrap-dialog.type-primary {
+    .modal-header {
+        background-color: $gray-lighter;
+        height: 50px;
+        padding-left: $padding-large-horizontal;
+        border: none;
+        .bootstrap-dialog-close-button {
+            button, .close {
+                height: 50px;
+                width: 50px;
+                border-left: 1px solid $gray-light;
+                border-bottom: 1px solid $gray-light;
+                margin-top: -15px;
+                margin-right: -15px;
+                border-top-right-radius: $border-radius-base;
+            }
+        }
+        .bootstrap-dialog-title {
+            color: $state-dark-text;
+        }
+    }
+    .modal-body {
+        padding-top: $padding-large-horizontal;
+        .form-horizontal {
+            .role_limit {
+                ul {
+                    height: 50px;
+                    margin-left: -15px;
+                    margin-right: -15px;
+                }
+            }
+            .field-member {
+                .bootstrap-tagsinput {
+                    .tag [data-role="remove"]:after {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}
+/*----------- confirm-dialog -------------*/
+
+.bootstrap-dialog.confirm-dialog .modal-dialog {
+    width: 500px;
+    .modal-body {
+        padding-top: 40px;
+    }
+    .modal-footer {
+        margin-top: 13px;
+        border-top: none;
+        .btn + .btn {
+            margin-left: 10px;
+        }
+    }
+}
+
+.split-dropdown-menu{
+    width: 100%;
+}
+.split-dropdown-menu .btn{
+    position: static;
+}
+
+/*弹出表单的大小控制*/
+    .mytest .modal-dialog{width: 800px;}
+
+    .form-group .btn-group .yjl-btn{
+        padding: 7px 10px;
+        text-align: left;
+    }
+    .form-group .btn-group .yjl-title{
+        width: 100%;
+        min-width: 72px;
+        z-index: 1;
+    }
+    .form-group .btn-group .dropdown-menu{
+        left: 0;
+        right: 0;
+        max-height: 208px;
+        overflow: auto;
+        min-width: 0;
+    }
+    .form-group .btn-group .yjl-title-btn{
+        padding-left: 8px; 
+        padding-right: 8px;
+        margin-left: -25px;
+        z-index: 2;
+        position: absolute;
+    }
+    .split-dropdown-menu{
+        width: 100%;
+    }
+    .split-dropdown-menu .btn{
+        position: static;
+    }
+
+/*BootstrapCheckboxes*/
+.BootstrapCheckboxes{
+    list-style-type: none;
+}
+.BootstrapCheckboxes li{
+    float: left;
+    width: 30%;
+}

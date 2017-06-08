@@ -1,0 +1,619 @@
+2017-05-05T23:46:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-05-05T23:47:03+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T17:53:03+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-05-17T18:16:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:30:14+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:30:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:30:28+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:30:30+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:31:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:31:35+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:32:30+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:32:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:32:54+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:33:05+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:33:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:33:21+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:33:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:33:55+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:34:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:35:39+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:35:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:38:28+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:38:40+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:38:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:39:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:40:02+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:40:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:41:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-17T18:54:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-19T10:00:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-19T10:37:32+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T10:37:32+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T10:39:08+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T10:39:08+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T10:42:48+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T10:42:48+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T10:44:48+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T10:44:48+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:02:40+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-19T11:03:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-05-19T11:04:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '177021317933'
+2017-05-19T11:10:25+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:10:25+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:10:29+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:10:29+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:10:36+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:10:36+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:18:23+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '123123123'
+2017-05-19T11:18:23+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '123123123'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:18:34+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:18:34+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:18:35+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:18:35+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-19T11:23:52+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-19T11:23:52+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T09:53:32+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T09:53:32+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T09:53:45+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T09:53:45+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T09:53:47+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T09:53:47+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T09:53:50+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T09:53:50+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T09:53:57+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T09:53:57+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:03:46+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:03:46+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:03:49+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:04:18+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:04:35+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:05:18+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '123123123'
+2017-05-22T10:05:18+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '123123123'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:05:50+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:05:50+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:07:00+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:07:00+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:07:04+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:07:04+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933'  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:07:09+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933'
+2017-05-22T10:12:20+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540
+2017-05-22T10:12:35+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540
+2017-05-22T10:13:40+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540
+2017-05-22T10:14:27+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540
+2017-05-22T10:14:53+08:00 INFO (6): SELECT count(id) as counts FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540
+2017-05-22T10:14:53+08:00 INFO (6): SELECT id,phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at,upload_at  FROM `mw_heart_info`  where phone_num = '17701317933' and created_at>1487145180 and created_at<1487145540  ORDER BY created_at DESC  LIMIT 0 , 20
+2017-05-22T10:23:35+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-06T11:27:14+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-06T15:48:31+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-06T15:49:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-06T15:49:55+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'p'
+2017-06-06T15:50:04+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:50:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:50:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:51:54+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:52:07+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:53:23+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:54:57+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T15:54:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T16:10:09+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T16:10:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T16:11:18+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = 'm'
+2017-06-06T16:26:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-06T16:27:33+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '177013179313'
+2017-06-06T16:38:27+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-06T16:38:45+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-06T16:39:18+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-06T17:13:21+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:14:01+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:14:02+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:14:54+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:52+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:53+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:53+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:54+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:54+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:21:54+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:23:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-06T17:24:06+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-06T17:29:39+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:29:43+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:30:34+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:31:12+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:33:33+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:33:34+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:34:45+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:34:46+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:34:47+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:34:47+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:45:49+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:45:51+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:46:13+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:46:16+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:25+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:26+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:27+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:27+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:29+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:50+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:53:52+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:54:18+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:54:20+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:54:20+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:54:59+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:27+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:27+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:28+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:28+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:29+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:48+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:49+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:56:50+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T17:57:33+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:01:25+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:02:18+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:04:13+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:04:17+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:08:20+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:09:20+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:10:59+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:11:15+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:18:49+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:18:51+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:18:53+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:19:04+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:19:28+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-06T18:26:42+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-06T18:27:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-06T18:54:35+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496746475')
+2017-06-06T18:56:17+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496746577')
+2017-06-06T18:56:21+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496746581')
+2017-06-06T20:47:02+08:00 INFO (6): INSERT INTO `push` (`created_at`) VALUES ('1496753222')
+2017-06-06T20:51:32+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496753492')
+2017-06-06T21:09:44+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496754584')
+2017-06-06T21:12:11+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496754731')
+2017-06-06T21:13:09+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T11:08:12+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T11:10:04+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T11:10:23+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496805023')
+2017-06-07T11:10:27+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T11:10:32+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T11:17:39+08:00 INFO (6): SELECT `push`.* FROM `push` WHERE `mobile` = '17701317933'
+2017-06-07T15:32:06+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496820726')
+2017-06-07T22:23:17+08:00 INFO (6): INSERT INTO `push` (`mobile`, `title`, `body`, `created_at`) VALUES ('17701317933', '中文', '中文yingwen', '1496845397')
+2017-06-08T08:19:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-08T08:19:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL
+2017-06-08T08:22:49+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T08:22:57+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T08:24:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T08:24:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:49:29+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:50:32+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:50:46+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:51:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:52:11+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:52:33+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:53:07+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:53:32+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:53:44+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:53:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:54:04+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:55:03+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:55:32+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:55:53+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:56:28+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:57:05+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:57:29+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:57:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T09:59:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:01:25+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:01:48+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:01:48+08:00 INFO (6): update users set channel_id='123' where id=1
+2017-06-08T10:02:04+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:02:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:02:12+08:00 INFO (6): update users set channel_id='4166591451258461042' where id=1
+2017-06-08T10:02:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:43:11+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496889791)
+2017-06-08T10:45:51+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496889951)
+2017-06-08T10:45:51+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:46:55+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890015)
+2017-06-08T10:46:55+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:54:06+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890446)
+2017-06-08T10:54:06+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:54:13+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890453)
+2017-06-08T10:54:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:54:24+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890464)
+2017-06-08T10:54:24+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:54:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890466)
+2017-06-08T10:54:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:17+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890517)
+2017-06-08T10:55:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:18+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890518)
+2017-06-08T10:55:18+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890519)
+2017-06-08T10:55:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:20+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890520)
+2017-06-08T10:55:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:21+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890521)
+2017-06-08T10:55:21+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T10:55:37+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890537)
+2017-06-08T10:55:37+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:03:08+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496890988)
+2017-06-08T11:03:08+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:03:17+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496890997)
+2017-06-08T11:03:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:03:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496890999)
+2017-06-08T11:03:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:04:54+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496891094)
+2017-06-08T11:04:54+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:04:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496891099)
+2017-06-08T11:04:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T11:04:59+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:02:56+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496905376)
+2017-06-08T15:02:56+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:02:56+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:14:43+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906083)
+2017-06-08T15:14:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:14:43+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:14:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906099)
+2017-06-08T15:14:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:14:59+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:15:10+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906110)
+2017-06-08T15:15:10+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:15:10+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:17:44+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906264)
+2017-06-08T15:17:44+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:17:44+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:18:45+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906325)
+2017-06-08T15:18:45+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:18:45+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:18:45+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T15:20:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906441)
+2017-06-08T15:20:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:20:41+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:20:41+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T15:22:14+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906534)
+2017-06-08T15:22:14+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:22:14+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:22:14+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T15:22:23+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496906543)
+2017-06-08T15:22:23+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T15:22:23+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T15:22:23+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:16:49+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496909809)
+2017-06-08T16:16:50+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:16:50+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:16:50+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:17:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496909846)
+2017-06-08T16:17:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:17:26+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:17:26+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:18:55+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496909935)
+2017-06-08T16:18:55+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:18:55+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:18:55+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:19:40+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496909980)
+2017-06-08T16:19:40+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:19:40+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:19:40+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:19:40+08:00 INFO (6): INSERT INTO `push` (`title`, `body`, `created_at`, `msg_id`, `send_time`, `mobile`) VALUES ('健康提醒', '您绑定的用户检测出心率异常，请及时联系查看。手机号：17701317933', '1496909980', '1582074671182189202', '1496909489', '15163176588')
+2017-06-08T16:26:52+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496910412)
+2017-06-08T16:26:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:26:52+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:26:52+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:27:03+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496910423)
+2017-06-08T16:27:03+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:27:03+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T16:27:03+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T16:53:38+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912018)
+2017-06-08T16:53:38+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:54:16+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912056)
+2017-06-08T16:54:16+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:54:35+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912075)
+2017-06-08T16:54:35+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:54:49+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912089)
+2017-06-08T16:54:49+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:55:46+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912146)
+2017-06-08T16:55:46+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:55:50+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912150)
+2017-06-08T16:55:50+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:55:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912158)
+2017-06-08T16:55:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:56:06+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912166)
+2017-06-08T16:56:06+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:56:18+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',100,120,3,1496912178)
+2017-06-08T16:56:18+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:57:38+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912258)
+2017-06-08T16:57:38+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:57:39+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912259)
+2017-06-08T16:57:39+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:57:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912261)
+2017-06-08T16:57:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:57:51+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912271)
+2017-06-08T16:57:51+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:58:24+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912304)
+2017-06-08T16:58:24+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T16:59:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912359)
+2017-06-08T16:59:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:08:29+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912909)
+2017-06-08T17:08:29+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:09:08+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496912948)
+2017-06-08T17:09:08+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:10:13+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496913013)
+2017-06-08T17:10:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:10:22+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',120,80,3,1496913022)
+2017-06-08T17:10:22+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:10:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496913027)
+2017-06-08T17:10:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:11:04+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496913064)
+2017-06-08T17:11:04+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:11:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496913086)
+2017-06-08T17:11:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:11:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913101)
+2017-06-08T17:11:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:04+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496913124)
+2017-06-08T17:12:04+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:12+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913132)
+2017-06-08T17:12:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:13+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913133)
+2017-06-08T17:12:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:14+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913134)
+2017-06-08T17:12:14+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:15+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913135)
+2017-06-08T17:12:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:17+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913137)
+2017-06-08T17:12:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:18+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913138)
+2017-06-08T17:12:18+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913139)
+2017-06-08T17:12:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:20+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913140)
+2017-06-08T17:12:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:25+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913145)
+2017-06-08T17:12:25+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:25+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:25+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T17:12:25+08:00 INFO (6): INSERT INTO `push` (`title`, `body`, `created_at`, `msg_id`, `send_time`, `mobile`) VALUES ('健康提醒', '您绑定的用户检测出心率异常，请及时联系查看。手机号：17701317933', '1496913145', '7839422252332063373', '1496912653', '15163176588')
+2017-06-08T17:12:43+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913163)
+2017-06-08T17:12:43+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:44+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913164)
+2017-06-08T17:12:44+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:45+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913165)
+2017-06-08T17:12:45+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:45+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913165)
+2017-06-08T17:12:45+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:46+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913166)
+2017-06-08T17:12:46+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:46+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913166)
+2017-06-08T17:12:46+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:47+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913167)
+2017-06-08T17:12:47+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:48+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913168)
+2017-06-08T17:12:48+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:48+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913168)
+2017-06-08T17:12:48+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:49+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913169)
+2017-06-08T17:12:49+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:50+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496913170)
+2017-06-08T17:12:50+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:50+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T17:12:50+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T17:12:50+08:00 INFO (6): INSERT INTO `push` (`title`, `body`, `created_at`, `msg_id`, `send_time`, `mobile`) VALUES ('健康提醒', '您绑定的用户检测出心率异常，请及时联系查看。手机号：17701317933', '1496913170', '6916198244495965257', '1496912678', '15163176588')
+2017-06-08T17:34:12+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914452)
+2017-06-08T17:34:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:25+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496914465)
+2017-06-08T17:34:25+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496914466)
+2017-06-08T17:34:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496914466)
+2017-06-08T17:34:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496914467)
+2017-06-08T17:34:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496914467)
+2017-06-08T17:34:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:31+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914471)
+2017-06-08T17:34:31+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:32+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914472)
+2017-06-08T17:34:32+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:32+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914472)
+2017-06-08T17:34:32+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:33+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914473)
+2017-06-08T17:34:33+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:33+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914473)
+2017-06-08T17:34:33+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:34+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914474)
+2017-06-08T17:34:34+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:35+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914475)
+2017-06-08T17:34:35+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:35+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914475)
+2017-06-08T17:34:35+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:36+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914476)
+2017-06-08T17:34:36+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:37+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914477)
+2017-06-08T17:34:37+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:37+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914477)
+2017-06-08T17:34:37+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:38+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914478)
+2017-06-08T17:34:38+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:38+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914478)
+2017-06-08T17:34:38+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:39+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914479)
+2017-06-08T17:34:39+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:39+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914479)
+2017-06-08T17:34:39+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:40+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914480)
+2017-06-08T17:34:40+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914481)
+2017-06-08T17:34:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:34:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914481)
+2017-06-08T17:34:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:35:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914527)
+2017-06-08T17:35:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:35:28+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914528)
+2017-06-08T17:35:28+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:35:45+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914545)
+2017-06-08T17:35:45+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:36:03+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914563)
+2017-06-08T17:36:03+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:36:37+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914597)
+2017-06-08T17:36:37+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:38:45+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914725)
+2017-06-08T17:38:45+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:38:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914739)
+2017-06-08T17:38:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:41:36+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496914896)
+2017-06-08T17:41:37+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:46:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915179)
+2017-06-08T17:46:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:46:48+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915208)
+2017-06-08T17:46:48+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:46:53+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915213)
+2017-06-08T17:46:53+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:46:54+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915214)
+2017-06-08T17:46:54+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:46:55+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915215)
+2017-06-08T17:46:55+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:11+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915230)
+2017-06-08T17:47:11+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:11+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915231)
+2017-06-08T17:47:11+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:12+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915232)
+2017-06-08T17:47:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:12+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915232)
+2017-06-08T17:47:12+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:13+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915233)
+2017-06-08T17:47:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:13+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915233)
+2017-06-08T17:47:13+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:15+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915235)
+2017-06-08T17:47:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:16+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915236)
+2017-06-08T17:47:16+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:16+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915236)
+2017-06-08T17:47:16+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:17+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915237)
+2017-06-08T17:47:17+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:18+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915238)
+2017-06-08T17:47:18+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915239)
+2017-06-08T17:47:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:19+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915239)
+2017-06-08T17:47:19+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:20+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915240)
+2017-06-08T17:47:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:21+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915241)
+2017-06-08T17:47:21+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:21+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915241)
+2017-06-08T17:47:21+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:22+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915242)
+2017-06-08T17:47:22+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:22+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915242)
+2017-06-08T17:47:22+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:23+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915243)
+2017-06-08T17:47:23+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:23+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915243)
+2017-06-08T17:47:23+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:47:24+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915244)
+2017-06-08T17:47:24+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:06+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915646)
+2017-06-08T17:54:06+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:15+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915655)
+2017-06-08T17:54:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:21+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915661)
+2017-06-08T17:54:21+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:22+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915662)
+2017-06-08T17:54:22+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:22+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915662)
+2017-06-08T17:54:22+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:23+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915663)
+2017-06-08T17:54:23+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:24+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915664)
+2017-06-08T17:54:24+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:24+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915664)
+2017-06-08T17:54:24+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:25+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915665)
+2017-06-08T17:54:25+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:25+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915665)
+2017-06-08T17:54:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:26+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915666)
+2017-06-08T17:54:26+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915667)
+2017-06-08T17:54:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:27+08:00 INFO (6): SELECT `bindphone`.* FROM `bindphone` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:27+08:00 INFO (6): select * from users where mobile in ('15163176588','13561874900')
+2017-06-08T17:54:27+08:00 INFO (6): INSERT INTO `push` (`title`, `body`, `created_at`, `msg_id`, `send_time`, `mobile`) VALUES ('健康提醒', '您绑定的用户检测出心率异常，请及时联系查看。手机号：17701317933', '1496915667', '7119855586628747281', '1496915175', '15163176588')
+2017-06-08T17:54:48+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915688)
+2017-06-08T17:54:48+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:52+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915692)
+2017-06-08T17:54:52+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:56+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915696)
+2017-06-08T17:54:56+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:57+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915697)
+2017-06-08T17:54:57+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915698)
+2017-06-08T17:54:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915698)
+2017-06-08T17:54:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915699)
+2017-06-08T17:54:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:54:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915699)
+2017-06-08T17:54:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915700)
+2017-06-08T17:55:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915700)
+2017-06-08T17:55:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:01+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915701)
+2017-06-08T17:55:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:01+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915701)
+2017-06-08T17:55:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:15+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',120,120,3,1496915715)
+2017-06-08T17:55:15+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:20+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',120,80,3,1496915720)
+2017-06-08T17:55:20+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915727)
+2017-06-08T17:55:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:31+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915731)
+2017-06-08T17:55:31+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:33+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915733)
+2017-06-08T17:55:33+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915741)
+2017-06-08T17:55:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:44+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,120,3,1496915744)
+2017-06-08T17:55:44+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:53+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915753)
+2017-06-08T17:55:53+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:55:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915758)
+2017-06-08T17:55:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:56:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915760)
+2017-06-08T17:56:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:56:01+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915761)
+2017-06-08T17:56:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:56:01+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,0,3,1496915761)
+2017-06-08T17:56:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T17:57:27+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496915847)
+2017-06-08T17:57:27+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:54+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917194)
+2017-06-08T18:19:54+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:57+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917197)
+2017-06-08T18:19:57+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:57+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917197)
+2017-06-08T18:19:57+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917198)
+2017-06-08T18:19:58+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:58+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917198)
+2017-06-08T18:19:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:19:59+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917199)
+2017-06-08T18:19:59+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:20:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917200)
+2017-06-08T18:20:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:20:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917200)
+2017-06-08T18:20:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T18:20:01+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496917201)
+2017-06-08T18:20:01+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T20:16:41+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125','25',0,80,3,1496924201)
+2017-06-08T20:16:41+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T20:17:00+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496924220)
+2017-06-08T20:17:00+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T20:20:09+08:00 INFO (6): INSERT INTO mw_heart_info (phone_num,client_sn,lat,lng,steps,hearts,static_times,created_at) VALUES ('17701317933','123456','125.11111','25.111',0,80,3,1496924409)
+2017-06-08T20:20:09+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` = '17701317933'
+2017-06-08T22:34:28+08:00 INFO (6): SELECT `users`.* FROM `users` WHERE `mobile` IS NULL

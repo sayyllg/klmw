@@ -1,0 +1,25 @@
+.address-container{
+	.address-list{
+		background: #fff;
+		padding: 20px;
+		table{
+			td{
+				height: 30px;
+			}
+			thead{
+				td{
+					border-bottom: 1px solid #ccc;
+
+				}
+			}
+			tbody{
+				tr:nth-child(odd){
+					background-color: rgb(246, 246, 246);
+				}
+				tr:hover{
+					background-color: rgb(233, 255, 214);
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,11 @@
+.change-container .change-list {
+  background: #fff;
+  padding: 20px; }
+  .change-container .change-list table td {
+    height: 30px; }
+  .change-container .change-list table thead td {
+    border-bottom: 1px solid #ccc; }
+  .change-container .change-list table tbody tr:nth-child(odd) {
+    background-color: #f6f6f6; }
+  .change-container .change-list table tbody tr:hover {
+    background-color: #e9ffd6; }
