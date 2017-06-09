@@ -18,6 +18,7 @@
 	class LgController extends ApiController {
 
 		private $_model = NULL;
+		private $redis = NULL;
 
 
 		/**
@@ -33,9 +34,21 @@
 			if(!is_array($data['body_params'])){
 				$data['body_params'] = json_decode($data['body_params'],true);
 			}
+			
 			if(strlen($data['phone_num']) == 14){
 				$data['phone_num'] = substr($data['phone_num'], 3, 14);
 			}
+
+			$this->redis = new \Redis(); 
+   			$this->redis->connect('127.0.0.1', 6379); 
+
+   			$redisData = $this->redis->get($data['phone_num']);
+
+   			if($redisData){
+   				$redisData = json_decode($redisData, true);
+   			}else{
+   				$redisData = [];
+   			}
 
 			$res  	= $this->_model -> save($data);
 
@@ -46,7 +59,7 @@
 			$high = $users[0]['heart_sit']  +  $users[0]['heart_sit'] * 0.2 ;
 
 			session_start();
-			if($data['body_params'][0]['steps'] > 80 && !array_key_exists('times', $_SESSION)){
+			if($data['body_params'][0]['steps'] > 80 && !array_key_exists('err_times', $redisData)){
 				echo json_encode(array(
 					"Success" => true,
 					"Code" => 1,
@@ -55,7 +68,7 @@
 				));
 				exit;
 			}else{
-				if(($data['body_params'][0]['hearts'] == 0 &&  !array_key_exists('err_times', $_SESSION)) ||  ($data['body_params'][0]['hearts'] == 0 &&  array_key_exists('err_times', $_SESSION) && $_SESSION['err_times']<7 ) ){
+				if(($data['body_params'][0]['hearts'] == 0 &&  !array_key_exists('err_times', $redisData)) ||  ($data['body_params'][0]['hearts'] == 0 &&  array_key_exists('err_times', $redisData) && $redisData['err_times']<7 ) ){
 					echo json_encode(array(
 						"Success" => true,
 						"Code" => 1,
@@ -66,16 +79,16 @@
 
 				}else{
 					if($data['body_params'][0]['hearts'] <  $low  ||  $data['body_params'][0]['hearts'] > $high){
-							$_SESSION['times'] = array_key_exists('times', $_SESSION) &&  $_SESSION['times'] != 0 ? 0 : $_SESSION['times']+1;
-							$_SESSION['err_times'] = array_key_exists('err_times', $_SESSION) &&  $_SESSION['err_times'] != 0 ? 0 : $_SESSION['err_times']+1;
-
-							$this->checkHealthy($data);
+							$redisData['times'] = !array_key_exists('times', $redisData) ? 1 : $redisData['times']+1;
+							$redisData['err_times'] = !array_key_exists('err_times', $redisData) ? 1 : $redisData['err_times']+1;
+							$this->redis->set($data['phone_num'], json_encode($redisData));
+							$this->checkHealthy($data, $redisData);
 							exit;
 
 					}else{
 
 
-						if(empty($_SESSION['times'])){
+						if(!array_key_exists('times', $redisData)){
 							echo json_encode(array(
 								"Success" => true,
 								"Code" => 1,
@@ -86,9 +99,9 @@
 							exit;
 
 						}else{
-							$_SESSION['times'] = empty($_SESSION['times']) &&  $_SESSION['times'] != 0 ? 0 : $_SESSION['times']+1;
+							$redisData['times'] = !array_key_exists('times', $redisData) ? 0 : $redisData['times']+1;
 							
-							$this->checkHealthy($data);
+							$this->checkHealthy($data, $redisData);
 							exit;
 						}
 						
@@ -112,9 +125,9 @@
 		}
 
 
-		public function checkHealthy($data){
+		public function checkHealthy($data, $redisData){
 
-			if($_SESSION['times'] > 10 && $_SESSION['err_times']>=7){
+			if($redisData['times'] > 10 && $redisData['err_times']>=7){
 
 				$bindphone = $this->_user_model->getBindPhone($data['phone_num']);
 				$mobilesstr = '';
@@ -130,8 +143,7 @@
 					}
 				}
 				$this->_push_model->pushBatchMsg($channel_ids, $data['phone_num'], $channel_users);
-
-				session_destroy();
+				$this->redis->delete($data['phone_num']);
 				echo json_encode(array(
 					"Success" => true,
 					"Code" => 1,
@@ -139,8 +151,8 @@
 					"Error"=> ""
 				));
 
-			}else if($_SESSION['times'] > 10 && $_SESSION['err_times'] < 7){
-				session_destroy();
+			}else if($redisData['times'] > 10 && $redisData['err_times'] < 7){
+				$this->redis->delete($data['phone_num']);
 				echo json_encode(array(
 					"Success" => true,
 					"Code" => 1,
