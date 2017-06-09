@@ -56,7 +56,6 @@ class LgModel extends ApiModel
 			$body['steps'] = $val['steps'];
 			$body['hearts'] = $val['hearts'];
 			$body['static_times'] = $val['static_times'];
-			$body['upload_at'] = $val['upload_at'];
 			$body_params[] = $body;
 			
 		}
