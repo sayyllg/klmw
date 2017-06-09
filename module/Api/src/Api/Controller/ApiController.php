@@ -78,7 +78,7 @@ class ApiController extends AbstractActionController
             case 'POST':
             case 'PUT':
             case 'PATCH':
-                if($_SERVER['CONTENT_TYPE'] == 'application/json'){
+                if($_SERVER['CONTENT_TYPE'] == 'application/json' || $_SERVER['CONTENT_TYPE'] == 'application/json; charset=UTF-8'){
                 	if(file_get_contents('php://input')){
                 		$data = json_decode(file_get_contents('php://input'), true);
                 	}else{
