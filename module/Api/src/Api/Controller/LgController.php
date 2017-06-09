@@ -46,7 +46,7 @@
 			$high = $users[0]['heart_sit']  +  $users[0]['heart_sit'] * 0.2 ;
 
 			session_start();
-			if($data['body_params'][0]['steps'] > 80 && empty($_SESSION['times'])){
+			if($data['body_params'][0]['steps'] > 80 && !array_key_exists('times', $_SESSION)){
 				echo json_encode(array(
 					"Success" => true,
 					"Code" => 1,
@@ -55,7 +55,7 @@
 				));
 				exit;
 			}else{
-				if(($data['body_params'][0]['hearts'] == 0 &&  empty($_SESSION['err_times'])) ||  ($data['body_params'][0]['hearts'] == 0 &&  !empty($_SESSION['err_times']) && $_SESSION['err_times']<7 ) ){
+				if(($data['body_params'][0]['hearts'] == 0 &&  !array_key_exists('err_times', $_SESSION)) ||  ($data['body_params'][0]['hearts'] == 0 &&  array_key_exists('err_times', $_SESSION) && $_SESSION['err_times']<7 ) ){
 					echo json_encode(array(
 						"Success" => true,
 						"Code" => 1,
@@ -66,10 +66,9 @@
 
 				}else{
 					if($data['body_params'][0]['hearts'] <  $low  ||  $data['body_params'][0]['hearts'] > $high){
-							$_SESSION['times'] = empty($_SESSION['times']) &&  $_SESSION['times'] != 0 ? 0 : $_SESSION['times']+1;
-							$_SESSION['err_times'] = empty($_SESSION['err_times']) &&  $_SESSION['err_times'] != 0 ? 0 : $_SESSION['err_times']+1;
+							$_SESSION['times'] = array_key_exists('times', $_SESSION) &&  $_SESSION['times'] != 0 ? 0 : $_SESSION['times']+1;
+							$_SESSION['err_times'] = array_key_exists('err_times', $_SESSION) &&  $_SESSION['err_times'] != 0 ? 0 : $_SESSION['err_times']+1;
 
-							
 							$this->checkHealthy($data);
 							exit;
 
