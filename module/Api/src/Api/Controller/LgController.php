@@ -33,13 +33,15 @@
 			if(!is_array($data['body_params'])){
 				$data['body_params'] = json_decode($data['body_params'],true);
 			}
+			if(strlen($data['phone_num']) == 14){
+				$data['phone_num'] = substr($data['phone_num'], 3, 14);
+			}
 
 			$res  	= $this->_model -> save($data);
 
 			$users = $this->_user_model->getUserInfo($data['phone_num']);
 
 			$low = $users[0]['heart_sit']  -  $users[0]['heart_sit'] * 0.2 ;
-
 
 			$high = $users[0]['heart_sit']  +  $users[0]['heart_sit'] * 0.2 ;
 
