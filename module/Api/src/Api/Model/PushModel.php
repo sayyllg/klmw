@@ -26,9 +26,9 @@ class PushModel extends ApiModel
 		
 	}
 
-	public function getPushList($mobile){
+	public function getPushList($data){
 
-		return $this->_dblg->getPushList($mobile);
+		return $this->_dblg->getPushList($data);
 
 	}
 

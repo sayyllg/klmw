@@ -27,12 +27,14 @@
 
 			$data = $this->getSubmitData();
 
-			$res = $this->_model->getPushList($data['mobile']);
-			echo json_encode(array(
-				'code' => 0,
-				'data' => $res,
-				'sysTime' => time()
-			));
+			$params = array(
+	    		'p'     		=> empty($data['p']) ? 1 : $data['p'],
+	    		's'     		=> empty($data['s']) ? 20 : $data['s'],
+	    		'mobile'   		=> $data['mobile']
+	    	);
+
+			$res = $this->_model->getPushList($params);
+			echo json_encode($res);
 			exit;
 		}
 
