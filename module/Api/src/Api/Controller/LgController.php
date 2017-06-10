@@ -177,19 +177,25 @@
 			//获取数据
 			$access_token =  $this->getSubmitData('access_token');
 
-			$redisData = $this->redis->get($access_token);
-
-			if($redisData){
-				$redisData = json_decode($redisData, true);
-			}
-
-			if(!$redisData){
+			if(empty($access_token)){
 				echo json_encode(array(
-					'errCode' => '20004',
+					'Code' => '0',
 					'msg'  => 'access_token认证失败'
 				));
 				exit;
-			};	
+			};
+
+			$redisData = $this->redis->get($access_token);	
+
+			if($redisData == false){
+				echo json_encode(array(
+					'Code' => '0',
+					'msg'  => 'access_token认证失败'
+				));
+				exit;
+			};
+
+			$redisData = json_decode($redisData, true);
 
 			$params = array(
 	    		'p'     		=> empty($this->getSubmitData('p')) ? 1 : $this->getSubmitData('p'),
@@ -214,25 +220,25 @@
 			$this->_model = new LgModel();
 			//获取数据
 			$access_token =  $this->getSubmitData('access_token');
-			
+
 			$redisData = $this->redis->get($access_token);
 
-			if($redisData){
-				$redisData = json_decode($redisData, true);
-			}
-
-			if(!$redisData){
+			if($redisData == false){
 				echo json_encode(array(
-					'errCode' => '20004',
+					'Code' => '0',
 					'msg'  => 'access_token认证失败'
 				));
 				exit;
 			};	
+
+			$redisData = json_decode($redisData, true);
+
 			$start_time = $this->getSubmitData('start_time');
 			$end_time = $this->getSubmitData('end_time');
+			
 			if(empty($start_time) || empty($end_time)){
 				echo json_encode(array(
-					'errCode' => '20005',
+					'Code' => '0',
 					'msg'  => '参数错误'
 				));
 				exit;
