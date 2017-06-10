@@ -221,6 +221,14 @@
 			//获取数据
 			$access_token =  $this->getSubmitData('access_token');
 
+			if(empty($access_token)){
+				echo json_encode(array(
+					'Code' => '0',
+					'msg'  => 'access_token认证失败'
+				));
+				exit;
+			};
+
 			$redisData = $this->redis->get($access_token);
 
 			if($redisData == false){
