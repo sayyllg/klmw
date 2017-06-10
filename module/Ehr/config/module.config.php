@@ -8,7 +8,6 @@
  */
 
 namespace Ehr;
-
 return array(
 	'controllers' => array(
 		'invokables' => array(
@@ -74,7 +73,7 @@ return array(
 			'ehr/index/index' => __DIR__ . '/../view/ehr/index/index.phtml',
 			'error/404'               => __DIR__ . '/../view/error/404.phtml',
 			'error/index'             => __DIR__ . '/../view/error/index.phtml',
-			'Account/index'             => __DIR__ . '/../view/Account/index.phtml',
+			'ehr/account/index'             => __DIR__ . '/../view/ehr/account/index.phtml',
 		),
 		'template_path_stack' => array(
 			__DIR__ . '/../view',
