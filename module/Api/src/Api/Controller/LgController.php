@@ -44,7 +44,6 @@
    			}else{
    				$redisData = [];
    			}
-
 			$res  	= $this->_model -> save($data);
 
 			$users = $this->_user_model->getUserInfo($data['phone_num']);
@@ -52,8 +51,6 @@
 			$low = $users[0]['heart_sit']  -  $users[0]['heart_sit'] * 0.2 ;
 
 			$high = $users[0]['heart_sit']  +  $users[0]['heart_sit'] * 0.2 ;
-
-			session_start();
 			if($data['body_params'][0]['steps'] > 80 && !array_key_exists('err_times', $redisData)){
 				echo json_encode(array(
 					"Success" => true,
@@ -95,7 +92,7 @@
 
 						}else{
 							$redisData['times'] = !array_key_exists('times', $redisData) ? 0 : $redisData['times']+1;
-							
+							$this->redis->set($data['phone_num'], json_encode($redisData));
 							$this->checkHealthy($data, $redisData);
 							exit;
 						}
