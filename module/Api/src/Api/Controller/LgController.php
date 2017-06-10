@@ -18,8 +18,6 @@
 	class LgController extends ApiController {
 
 		private $_model = NULL;
-		private $redis = NULL;
-
 
 		/**
 		 * @brief 
@@ -38,9 +36,6 @@
 			if(strlen($data['phone_num']) == 14){
 				$data['phone_num'] = substr($data['phone_num'], 3, 14);
 			}
-
-			$this->redis = new \Redis(); 
-   			$this->redis->connect('127.0.0.1', 6379); 
 
    			$redisData = $this->redis->get($data['phone_num']);
 
@@ -161,8 +156,8 @@
 				));
 			}else{
 				echo json_encode(array(
-					"Success" => false,
-					"Code" => 1,
+					"Success" => true,
+					"Code" => 2,
 					"Result" => "",
 					"Error"=> ""
 				));
@@ -184,11 +179,17 @@
 			$this->_model = new LgModel();
 			//获取数据
 			$access_token =  $this->getSubmitData('access_token');
-			session_start();
-			if(empty($_SESSION['mobile'])){
+
+			$redisData = $this->redis->get($access_token);
+
+			if($redisData){
+				$redisData = json_decode($redisData, true);
+			}
+
+			if(!$redisData){
 				echo json_encode(array(
 					'errCode' => '20004',
-					'msg'  => 'session失效'
+					'msg'  => 'access_token认证失败'
 				));
 				exit;
 			};	
@@ -196,7 +197,7 @@
 			$params = array(
 	    		'p'     		=> empty($this->getSubmitData('p')) ? 1 : $this->getSubmitData('p'),
 	    		's'     		=> empty($this->getSubmitData('s')) ? 20 : $this->getSubmitData('s'),
-	    		'mobile'   		=> empty($this->getSubmitData('mobile')) ? $_SESSION['mobile'] : $this->getSubmitData('mobile'),
+	    		'mobile'   		=> empty($this->getSubmitData('mobile')) ? $redisData['mobile'] : $this->getSubmitData('mobile'),
 	    	);
 
 			$res  	= $this->_model -> getlist($params);
@@ -216,11 +217,17 @@
 			$this->_model = new LgModel();
 			//获取数据
 			$access_token =  $this->getSubmitData('access_token');
-			session_start();
-			if(empty($_SESSION['mobile'])){
+			
+			$redisData = $this->redis->get($access_token);
+
+			if($redisData){
+				$redisData = json_decode($redisData, true);
+			}
+
+			if(!$redisData){
 				echo json_encode(array(
 					'errCode' => '20004',
-					'msg'  => 'session失效'
+					'msg'  => 'access_token认证失败'
 				));
 				exit;
 			};	
@@ -239,7 +246,7 @@
 	    		'end_time'     		=> $end_time,
 	    		'p'     		=> empty($this->getSubmitData('p')) ? 1 : $this->getSubmitData('p'),
 	    		's'     		=> empty($this->getSubmitData('s')) ? 20 : $this->getSubmitData('s'),
-	    		'mobile'   		=> empty($this->getSubmitData('mobile')) ? $_SESSION['mobile'] : $this->getSubmitData('mobile'),
+	    		'mobile'   		=> empty($this->getSubmitData('mobile')) ? $redisData['mobile'] : $this->getSubmitData('mobile'),
 	    	);
 
 			$res  	= $this->_model -> getListByTime($params);

@@ -26,7 +26,7 @@
 			
 			$this->_model = new LoginModel();
 			$this->_user_model = new UserModel();
-
+			
 			$data 	= $this -> getSubmitData();
 
 			$users = $this->_model->checkUser($data['mobile']);
@@ -35,25 +35,20 @@
 
 				if($users[0]['password'] == md5($data['pwd'])){
 
-					if(session_start()){
-						$access_token = session_id();
-						$_SESSION['mobile'] = $data['mobile'];
-						if($users[0]['channel_id'] != $data['channel_id']){
-							$re = $this->_user_model->updateChannnelId($users[0]['id'],$data['channel_id']);
-						}
-						echo json_encode(array(
-							'code' => 0,
-							'data' => array(
-								'access_token' => $access_token
-							),
-							'sysTime' => time()
-						));
-					}else{
-						echo json_encode(array(
-							'code' => 1,
-							'msg' => '服务器错误， session开启失败！' 
-						));
+					$access_token = uniqid(16);
+					$access['mobile'] = $data['mobile'];
+					$this->redis->set($access_token, json_encode($access));
+					if($users[0]['channel_id'] != $data['channel_id']){
+						$re = $this->_user_model->updateChannnelId($users[0]['id'],$data['channel_id']);
 					}
+					echo json_encode(array(
+						'code' => 0,
+						'data' => array(
+							'access_token' => $access_token
+						),
+						'sysTime' => time()
+					));
+				
 
 				}else{
 
