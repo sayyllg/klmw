@@ -65,13 +65,13 @@ class PushDb extends ApiDb {
 					'HasNextPage' 	=> $HasNextPage,
 				),
 				'data' => $row,
-				'Code' => 1
+				'code' => 0
 			);
 
 		}else{
 			return array(
 
-				'Code' => 0,
+				'code' => 0,
 				'msg' => '获取数据失败' 
 			);
 		}
