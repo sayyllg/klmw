@@ -12,10 +12,12 @@
 	use Api\Controller\ApiController;
 	use Zend\View\Model\ViewModel;
 	use Api\Model\PushModel;
+	use Api\Model\UserModel;
 	
 	class PushController extends ApiController {
 
 		private $_model = NULL;
+		private $_user_model = NULL;
 
 
 		/**
@@ -45,6 +47,35 @@
 
 			$data = $this->getSubmitData();
 			$res = $this->_model->savePush($data);
+
+			echo json_encode(array(
+				'code' => 0,
+				'data' => $res,
+				'sysTime' => time()
+			));
+			exit;
+		}
+
+		public function channelAction() {
+			
+			$this->_user_model = new UserModel();
+
+			$data = $this->getSubmitData();
+
+			$redisData = $this->redis->get($data['access_token']);
+
+			if($redisData == false){
+				echo json_encode(array(
+					'code' => 1,
+					'msg' => 'access_token校验失败'
+				));
+				exit;
+			}
+
+
+			$redisData = json_decode($redisData, true);
+
+			$res = $this->_user_model->updateChannnelId($redisData['user_id'],$data['channel_id']);
 
 			echo json_encode(array(
 				'code' => 0,

@@ -37,10 +37,11 @@
 
 					$access_token = uniqid(16);
 					$access['mobile'] = $data['mobile'];
+					$access['user_id'] = $users[0]['id'];
 					$this->redis->set($access_token, json_encode($access));
-					if($users[0]['channel_id'] != $data['channel_id']){
-						$re = $this->_user_model->updateChannnelId($users[0]['id'],$data['channel_id']);
-					}
+					// if($users[0]['channel_id'] != $data['channel_id']){
+					// 	$re = $this->_user_model->updateChannnelId($users[0]['id'],$data['channel_id']);
+					// }
 					echo json_encode(array(
 						'code' => 0,
 						'data' => array(
