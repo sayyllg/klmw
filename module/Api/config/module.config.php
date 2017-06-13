@@ -17,6 +17,7 @@ return array(
             'Api\Controller\Login'       => 'Api\Controller\LoginController',
             'Api\Controller\User'       => 'Api\Controller\UserController',
             'Api\Controller\Push'       => 'Api\Controller\PushController',
+            'Api\Controller\Version'       => 'Api\Controller\VersionController',
             //bb
         ),
     ),
