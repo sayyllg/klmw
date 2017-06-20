@@ -21,9 +21,9 @@
 		public function versionAction() {
 			echo json_encode(array(
 				'code' => 0,
-				'varsionCode' => 1,
-				'varsionName' => '康联宝',
-				'url' => 'http://www.sayyllg.com/klb.apk'
+				'varsionCode' => 200,
+				'varsionName' => '5.1',
+				'url' => 'http://www.sayyllg.com/klb2.apk'
 			));
 			exit;
 		}
