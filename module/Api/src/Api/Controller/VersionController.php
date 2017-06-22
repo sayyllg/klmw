@@ -21,8 +21,8 @@
 		public function versionAction() {
 			echo json_encode(array(
 				'code' => 0,
-				'varsionCode' => 200,
-				'varsionName' => '5.1',
+				'varsionCode' => 20,
+				'varsionName' => '2.2',
 				'url' => 'http://www.sayyllg.com/klb3.apk'
 			));
 			exit;
