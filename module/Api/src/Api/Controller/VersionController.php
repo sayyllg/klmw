@@ -23,7 +23,7 @@
 				'code' => 0,
 				'varsionCode' => 200,
 				'varsionName' => '5.1',
-				'url' => 'http://www.sayyllg.com/klb2.apk'
+				'url' => 'http://www.sayyllg.com/klb3.apk'
 			));
 			exit;
 		}
